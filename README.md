@@ -36,6 +36,8 @@ Right now the bot is configured to receive commands from the joystick via button
 
 The IMU for the bot is located at the bottom of the frame. It is placed there because I read IMUs should be put as close to the rotating axis of the bot as possible. 
 
+Sorry, there's no batteries for the remote. Just power it up through the USB cable.
+
 ### The circuit
 
 This is a double-sided [PCB](docs/board.png) with a mounted teensy 3.2. Teensy boards are really nice, their pinouts are described here: [[link](https://www.pjrc.com/teensy/card7a_rev1.png)]. Note that the teensy uses 3.2v inputs so a TXB0108 voltage-level translator is used to manage the signal levels into the encoders.  
